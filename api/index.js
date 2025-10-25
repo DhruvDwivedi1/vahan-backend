@@ -11,7 +11,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://vahan-frontend.vercel.app', // Replace with your actual frontend URL
+    'https://vahan-frontend-zeta.vercel.app', // Replace with your actual frontend URL
     'https://vahan-chatbot.vercel.app'    // Add any custom domains
   ],
   credentials: true,
